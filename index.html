@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criando Formulario</title>
+    <link rel="stylesheet" href="index.css" />
+<script>
+  MinhaPrimeiraFuncao(" Ola !!!!");
+
+function  MinhaPrimeiraFuncao(msg){
+    alert("Seja Bem Vindo: "+msg);
+}
+</script>
+    
+<script>
+  function msg() {
+    alert("Você clicou no botão!");
+  }
+  </script>
+</head>
+<body>
+    
+    <form class="menu" name="meu_form">
+        <h1 class="h1"> Faça seu Cadastro</h1>
+<div class="caixa">
+
+
+        <input class="nome" type="text" id="nomeid" placeholder="coloque seu nome " required="required" name="nome" />
+<label class="nome-dois" for="nome">Nome</label>
+<br>
+
+<input  class="fone" type="tel" id="foneid" placeholder="(xx)xx-xx-xx-xx" name="fone" />
+  <label class="fone-dois" for="fone">Fone</label>
+    <br>
+<br>
+  <input  class="email" type="email" id="emailid" placeholder="insira seu email " name="email" />
+  <label class="email-dois" for="email">Email</label>
+<br>
+<br>
+
+
+
+  <textarea class="box" placeholder="Deixe sua opnião"></textarea>
+
+
+    <input  class="box-dois"  type="submit" class="enviar" onclick="Enviar();" value="Enviar Formulário" /> 
+    <br>
+
+  
+ 
+<br>
+  <br>
+    </form>
+
+  </div>
+
+    <script src="index.js">
+       
+    </script>
+
+</body>
+</html>
